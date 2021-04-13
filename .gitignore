@@ -4,3 +4,13 @@
 *.db-wal
 *.opendb
 *.ipch
+.vs/RDR3PoolExtender/v16/.suo
+*.obj
+*.recipe
+*.log
+*.pch
+*.tlog
+*.dll
+*.iobj
+*.ipdb
+*.pdb

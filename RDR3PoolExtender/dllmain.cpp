@@ -73,7 +73,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 				}
 			
 				auto sc = new scanner(nullptr);
-				auto func = static_cast<void*>(sc->scan("83 79 10 00 44 8B D2"));
+				auto func = sc->scan("83 79 10 00 44 8B D2");
 
 				if (func)
 				{
