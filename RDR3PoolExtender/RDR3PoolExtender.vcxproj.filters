@@ -24,9 +24,6 @@
     <ClInclude Include="scanner.h">
       <Filter>Quelldateien</Filter>
     </ClInclude>
-    <ClInclude Include="simpleini.h">
-      <Filter>Quelldateien</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
