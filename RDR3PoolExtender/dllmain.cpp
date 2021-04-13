@@ -89,6 +89,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 				}
 
 				MH_Uninitialize();
+				MH_DisableHook(g_GetSizeOfPool);
 				MH_RemoveHook(g_GetSizeOfPool);
 
 				FreeLibraryAndExitThread(g_module, 0);
