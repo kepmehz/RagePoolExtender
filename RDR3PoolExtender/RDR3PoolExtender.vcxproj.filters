@@ -24,6 +24,12 @@
     <ClInclude Include="scanner.h">
       <Filter>Quelldateien</Filter>
     </ClInclude>
+    <ClInclude Include="..\external\include\MinHook.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\simpleini.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">

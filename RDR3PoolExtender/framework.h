@@ -9,5 +9,5 @@
 #include <iostream>
 #include <chrono>
 #include <filesystem>
-#include <MinHook.h>
-#include <simpleini.h>
+#include "../external/include/MinHook.h"
+#include "../external/include/simpleini.h"
