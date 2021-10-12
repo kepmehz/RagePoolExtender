@@ -15,3 +15,5 @@
 *.ipdb
 *.pdb
 RDR3PoolExtender/x64/Release/RDR3PoolExtender.vcxproj.FileListAbsolute.txt
+.vs/RagePoolExtender/v16/.suo
+*.txt
